@@ -1,7 +1,7 @@
-<h1 align="center">Hi there 👋, I'm Akshay Nimbalkar</h1>
+<h1 align="center">Hi there 🐢, I'm Akshay Nimbalkar</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif" width="100"/>
 </p>
 
 ---
@@ -55,13 +55,18 @@ I'm a passionate **AI Enthusiast**, **Machine Learning Engineer**, and **Data Sc
 ## 📊 GitHub Stats
 
 <p align="center">
+  <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=akshay-nimbalkar&show_icons=true&theme=radical" alt="GitHub Stats"/>
 </p>
+
+## 🚀 2024 Contributions
+
+- **Total Commits in 2024:** ![Commits in 2024](https://img.shields.io/badge/Commits%20in%202024-0-blue) ![Tortoise](https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif)
 
 ## 📫 How to Reach Me
 
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/akshay-nimbalkar-423b6491)
-- Email me at [akshay.nimbalkar@gmail.com](mailto:akshay.nimbalkar@gmail.com)
+- Email me at [akshaysnimbalkar@gmail.com](mailto:akshaysnimbalkar@gmail.com)
 
 ## ⚡ Fun Fact
 
@@ -74,5 +79,5 @@ I'm known for turning coffee into code and data into insights! When I'm not buil
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif" width="100"/>
 </p>
