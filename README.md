@@ -61,7 +61,7 @@ I'm a passionate **AI Enthusiast**, **Machine Learning Engineer**, and **Data Sc
 
 ## 🚀 2024 Contributions
 
-- **Total Commits in 2024:** ![Commits in 2024](https://img.shields.io/badge/Commits%20in%202024-0-blue) ![Tortoise](https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif)
+- **Total Commits in 2024:** ![Commits in 2024](https://img.shields.io/badge/Commits%20in%202024-1-blue) ![Tortoise](https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif)
 
 ## 📫 How to Reach Me
 
