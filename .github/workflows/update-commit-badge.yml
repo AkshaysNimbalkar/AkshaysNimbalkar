@@ -1,0 +1,40 @@
+name: Update Commit Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * MON' # Runs every Monday at 00:00 UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Git Config
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+      - name: Count 2024 Commits
+        id: commit_count
+        run: |
+          COUNT=$(git rev-list --count HEAD --since="2024-01-01" --until="2024-12-31")
+          echo "::set-output name=count::$COUNT"
+
+      - name: Update README.md
+        run: |
+          # Replace the badge URL with the new commit count
+          sed -i "s/Commits%20in%202024-[0-9]*/Commits%20in%202024-${{ steps.commit_count.outputs.count }}/" README.md
+
+      - name: Commit Changes
+        run: |
+          git add README.md
+          git commit -m "Update 2024 commit count badge [skip ci]" || echo "No changes to commit"
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
