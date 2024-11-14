@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * MON' # Runs every Monday at 00:00 UTC
   workflow_dispatch: # Allows manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   update-badge:
     runs-on: ubuntu-latest
@@ -29,3 +32,4 @@ jobs:
         with:
           commit_message: "Update 2024 commit count badge [skip ci]"
           file_pattern: README.md
+
