@@ -22,11 +22,11 @@ jobs:
         id: commit_count
         run: |
           COUNT=$(git rev-list --count HEAD --since="2024-01-01" --until="2024-12-31")
-          echo "::set-output name=count::$COUNT"
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
 
       - name: Update README.md
         run: |
-          # Replace the badge URL with the new commit count
+          # Replace the commit count in the badge
           sed -i "s/Commits%20in%202024-[0-9]*/Commits%20in%202024-${{ steps.commit_count.outputs.count }}/" README.md
 
       - name: Commit Changes
