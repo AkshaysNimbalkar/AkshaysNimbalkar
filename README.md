@@ -52,16 +52,6 @@ I'm a passionate **AI Enthusiast**, **Machine Learning Engineer**, and **Data Sc
   <!-- Add more badges as needed -->
 </p>
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=akshay-nimbalkar&show_icons=true&theme=radical" alt="GitHub Stats"/>
-</p>
-
-## 🚀 2024 Contributions
-
-- **Total Commits in 2024:** ![Commits in 2024](https://img.shields.io/badge/Commits%20in%202024-1-blue) ![Tortoise](https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif)
 
 ## 📫 How to Reach Me
 
